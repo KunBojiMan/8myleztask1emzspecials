@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<card>
+    <title>Basic configuration</title>
+    <title lang="de-DE"> DE Title</title>
+    <input-field type="bool">
+        <name>showInStorefront</name>
+        <titlle>Title Shop finder</titlle>
+        <title lang="de-DE"> DE Title shop finder</title>
+    </input-field>
+</card>

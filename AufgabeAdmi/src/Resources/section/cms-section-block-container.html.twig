@@ -1,0 +1,13 @@
+{% sw_extends '@Storefront/storefront/section/cms-section-block-container.html.twig' %}
+
+{% block section_content_block_row  %}
+    {{ parent() }}
+
+
+    {% if page.extensions.emz_specials_collection %}
+        {% sw_include '@Storefront/storefront/section/emz-specials-cms.html.twig' with {
+            'aufgabe_admi': page.extensions.aufgabe_admi
+        } %}
+    {% endif %}
+
+{% endblock %}
